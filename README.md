@@ -12,9 +12,9 @@ WebFG-496 contains 200 subcategories of the "Bird" (Web-bird), 100 subcategories
 
 Download the dataset:
 ```
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-aircraft.tar.gz
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-bird.tar.gz
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-car.tar.gz
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-aircraft.tar.gz
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-bird.tar.gz
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-car.tar.gz
 ```
 
 
@@ -23,20 +23,20 @@ WebiNat-5089 is a large-scale webly supervised fine-grained dataset, which consi
 
 Download the dataset:
 ```
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-00
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-01
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-02
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-03
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-04
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-05
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-06
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-07
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-08
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-09
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-10
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-11
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-12
-wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-iNat.tar.gz.part-13
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-00
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-01
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-02
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-03
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-04
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-05
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-06
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-07
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-08
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-09
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-10
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-11
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-12
+wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/web-iNat.tar.gz.part-13
 ```
 
 ---
@@ -99,9 +99,9 @@ The code is currently tested only on GPU
 
       - Download one of the following trained models into `model/` using
           ```
-          wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/Models/plm_web-aircraft_bcnn_best-epoch_74.38.pth
-          wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/Models/plm_web-bird_bcnn_best-epoch_76.48.pth
-          wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/Models/plm_web-car_bcnn_best-epoch_78.52.pth
+          wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/Models/plm_web-aircraft_bcnn_best-epoch_74.38.pth
+          wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/Models/plm_web-bird_bcnn_best-epoch_76.48.pth
+          wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/Models/plm_web-car_bcnn_best-epoch_78.52.pth
           ```
       - Activate virtual environment (e.g. conda)
       - In `Web496_demo.sh`
@@ -114,7 +114,7 @@ The code is currently tested only on GPU
 
       - Download one of the following trained models into `model/` using
           ```
-          wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/Models/plm_web-inat_resnet50_best-epoch_54.56.pth
+          wget https://web-fgvc-496-5089-sh.oss-cn-shanghai.aliyuncs.com/Models/plm_web-inat_resnet50_best-epoch_54.56.pth
           ```
       - Activate virtual environment (e.g. conda)
       - In `Web5089_demo.sh`
